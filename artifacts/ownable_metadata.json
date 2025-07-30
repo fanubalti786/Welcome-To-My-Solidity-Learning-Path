@@ -12,35 +12,42 @@
 			},
 			{
 				"inputs": [],
-				"name": "getAge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setAge",
+				"name": "anyOneCanAccess",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "setName",
+				"name": "onlyOwnerCanAccess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -57,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/firstEx.sol": "Identity"
+			"contracts/sample.sol": "ownable"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -71,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/firstEx.sol": {
-			"keccak256": "0xf94b1e389fbd43147e114433c2faeb39fc0d834a60360c5132ed4454f9bbeb18",
+		"contracts/sample.sol": {
+			"keccak256": "0x1ec87d1a94c17eea8a719940f49d987396188cef2cd099e5a23a9821d6dab790",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c035c1757669465c235143f1980fccce03731373e0d7097958a814f38f068383",
-				"dweb:/ipfs/Qmf8KZDvree7T8HZhA7sPf2FS217nciTndnTcSWfPqEfSW"
+				"bzz-raw://e90c10481371e7d84622a5e3c4a3b0433f14a9bbcc3e4c509b297807df6afa41",
+				"dweb:/ipfs/QmYU9NZ6owuud8a2LRC4NMtMJRHWCnCz24nAXGP6FhopuB"
 			]
 		}
 	},
