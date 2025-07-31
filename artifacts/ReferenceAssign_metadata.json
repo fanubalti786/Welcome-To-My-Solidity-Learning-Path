@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "copyToMemory",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8-assigning-reference-variable-in-funciton.sol": "ReferenceAssign"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8-assigning-reference-variable-in-funciton.sol": {
+			"keccak256": "0x6a354cf63903e7484493baa19c62f936b83191ec23d3cb2e00f9093bee3b8b00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d0c18f900b78148cedae4dbb80b000e4e42932f9820de90227ecb9641a3ffd0",
+				"dweb:/ipfs/QmW9D9rvWH1kRV5N8xgnco1EfDLaE3pYM88zq7C4atZJnJ"
+			]
+		}
+	},
+	"version": 1
+}
