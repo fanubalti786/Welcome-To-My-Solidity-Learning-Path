@@ -57,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/firstEx.sol": "Identity"
+			"contracts/1-firstEx.sol": "Identity"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -71,7 +71,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/firstEx.sol": {
+		"contracts/1-firstEx.sol": {
 			"keccak256": "0xf94b1e389fbd43147e114433c2faeb39fc0d834a60360c5132ed4454f9bbeb18",
 			"license": "GPL-3.0",
 			"urls": [
