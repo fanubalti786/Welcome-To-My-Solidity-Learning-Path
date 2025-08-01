@@ -148,7 +148,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/19-dynamic-size-array.sol": "DynamicArrayMaster"
+			"contracts/20-dynamic-size-array.sol": "DynamicArrayMaster"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -162,7 +162,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/19-dynamic-size-array.sol": {
+		"contracts/20-dynamic-size-array.sol": {
 			"keccak256": "0xd92c5b0e46c7794a82b50d938e0c05bba03163e7e7a8ce6a3ba164cc76b6aa7f",
 			"license": "MIT",
 			"urls": [

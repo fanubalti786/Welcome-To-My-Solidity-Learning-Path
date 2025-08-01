@@ -153,7 +153,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/18-fixed-size-array.sol": "FixedArrayExample"
+			"contracts/19-fixed-size-array.sol": "FixedArrayExample"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -167,7 +167,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/18-fixed-size-array.sol": {
+		"contracts/19-fixed-size-array.sol": {
 			"keccak256": "0xc3207ff040ec3de0256568d70c4b9791afe4eb982f9f0df0177c8c6a3b125345",
 			"license": "MIT",
 			"urls": [

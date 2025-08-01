@@ -140,7 +140,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/multiple-array-declaration.sol": "arrayDeclaration"
+			"contracts/19-multiple-array-declaration.sol": "arrayDeclaration"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -154,7 +154,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/multiple-array-declaration.sol": {
+		"contracts/19-multiple-array-declaration.sol": {
 			"keccak256": "0x6b4ec79fa6c208c365fc213579aa23ae1b0167e95e56e9a9e70e2425d27d6264",
 			"urls": [
 				"bzz-raw://6067ef22af2f538e9ae2f1a04da388fe6ac9be7e8a1a8e729920cba48a4b0b6a",

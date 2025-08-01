@@ -4,7 +4,80 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dowhileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dynamicwhile",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "forLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isTrue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/multiple-array-declaration.sol": "Loops"
+			"contracts/16-loops-in-solidity.sol": "Loops"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -32,11 +105,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/multiple-array-declaration.sol": {
-			"keccak256": "0x0629fcc43b9bf1b0195f8fb5752ca93016502f64978e05dc4d8560f337893169",
+		"contracts/16-loops-in-solidity.sol": {
+			"keccak256": "0x23dc8e9601c9780cd67ef7e77d613e1208e86625f1f75e67fc7ae1de2967d226",
 			"urls": [
-				"bzz-raw://2ccac2cf80e84f002c5a9d75e826913baa5c60ee78f5282baaff8d075e7fba9c",
-				"dweb:/ipfs/QmSfUojiNYVVM1NVZhrtT6NKAf4Mg9nEyfPnqwnqpg2nx8"
+				"bzz-raw://01acf4c210f41b997c9259aeb0b1b7a68164998f627c2148db1c115f7a44067f",
+				"dweb:/ipfs/QmaVoZbh4EeKam65qm2UeKQi45q9TedVPhVTH12YnG269X"
 			]
 		}
 	},
