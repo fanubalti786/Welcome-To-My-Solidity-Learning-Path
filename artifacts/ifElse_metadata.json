@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "ifElseStatement",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/14-ifElse.sol": "ifElse"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/14-ifElse.sol": {
+			"keccak256": "0x9971f951bc7ff1448f1ece2f22262bc2221a05a807ebaed08a07ad19aabcc8f3",
+			"urls": [
+				"bzz-raw://eb8d27362f89adb61590065394a99f0ab554ca9a6daa358e0abe6a6103bd9639",
+				"dweb:/ipfs/QmYhD8x8tybDqzrFNzp57iTn7uK4mtDNJn6w1mBrNHQk7D"
+			]
+		}
+	},
+	"version": 1
+}
