@@ -8,43 +8,58 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
-					}
-				],
-				"name": "checkString1",
-				"outputs": [
+					},
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "age",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "checkString2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "str",
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -64,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/11-use-of-string.sol": "_string"
+			"contracts/13-use-of-constructor.sol": "_constructor"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -78,11 +93,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/11-use-of-string.sol": {
-			"keccak256": "0x64a9030e793922425a0f48f1a7b917513d97e5ba9ba50c3f7afe3c904a36802f",
+		"contracts/13-use-of-constructor.sol": {
+			"keccak256": "0xc1f9525b6745076c02b8329dd0fa0f00061fe83099b421a50733eefad4647b2f",
 			"urls": [
-				"bzz-raw://473a7ed9a9018836d62c0c89bfe30d360f8dc6bd099229e0567519e91142321f",
-				"dweb:/ipfs/QmReRF5ySambx1Mc1G1iSibznjRSrza9GgoCQvETne2ZDr"
+				"bzz-raw://102ca613e04a630a3c93f60f5145ce084adb3e29db33071ab9cee53742fa0e90",
+				"dweb:/ipfs/Qma49oBHhfR13CLkpDrFwuuPHVCYRAvYseANvcs7GwCB82"
 			]
 		}
 	},

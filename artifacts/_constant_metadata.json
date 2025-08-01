@@ -4,34 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "owner1",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner2",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -45,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/12-use-of-const.sol": "_constant"
+			"contracts/13-use-of-constructor.sol": "_constant"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,11 +32,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/12-use-of-const.sol": {
-			"keccak256": "0x4df354f3632edc981674760b5cab925bd418f9f526b5fd3be463d5565582b1d5",
+		"contracts/13-use-of-constructor.sol": {
+			"keccak256": "0xb271c0b8a15bbe2c71dbdfa866ab3ee302191d8ec157dce39f6a424834e4ddc0",
 			"urls": [
-				"bzz-raw://803c3ee72b9ba1206b6a1527d751397886bb43bccbeb63f58ab3ddbf47abdede",
-				"dweb:/ipfs/QmdhaXEMzeDXzSLCRwi9gPrbjCjYWsNazPAxZpWcpeLU5Q"
+				"bzz-raw://4c72d3fabcee31ebbc9596c9f990b96ed4e9320b7211f244f73147cd19cee0a6",
+				"dweb:/ipfs/QmYmzBrPKWUgAVSJG6RQaqahpiEPjFzCc3ZG8ReYfDxgdJ"
 			]
 		}
 	},

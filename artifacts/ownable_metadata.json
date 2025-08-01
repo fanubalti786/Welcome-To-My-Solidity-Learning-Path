@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2-sample.sol": "ownable"
+			"contracts/02-sample.sol": "ownable"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -78,7 +78,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2-sample.sol": {
+		"contracts/02-sample.sol": {
 			"keccak256": "0x1ec87d1a94c17eea8a719940f49d987396188cef2cd099e5a23a9821d6dab790",
 			"license": "GPL-3.0",
 			"urls": [
