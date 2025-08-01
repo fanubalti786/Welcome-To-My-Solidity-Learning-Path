@@ -4,47 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "dowhileLoop",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "forLoop",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "whileLoop",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -58,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/17-continue-and-break.sol": "Loops"
+			"contracts/multiple-array-declaration.sol": "Loops"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,11 +32,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/17-continue-and-break.sol": {
-			"keccak256": "0xb28f7dd051332aaf7dfc56f204517ef53da0a6eebaf6ab97f1198df378dd5c6c",
+		"contracts/multiple-array-declaration.sol": {
+			"keccak256": "0x0629fcc43b9bf1b0195f8fb5752ca93016502f64978e05dc4d8560f337893169",
 			"urls": [
-				"bzz-raw://d354b383a94c1fc733856e7282b73124fdbfdc5e3f452b54cda446d915ca815c",
-				"dweb:/ipfs/QmUTfYyaW9Tu4DU67GKJWJZLpj63AUcrwongnPbXTWjwfJ"
+				"bzz-raw://2ccac2cf80e84f002c5a9d75e826913baa5c60ee78f5282baaff8d075e7fba9c",
+				"dweb:/ipfs/QmSfUojiNYVVM1NVZhrtT6NKAf4Mg9nEyfPnqwnqpg2nx8"
 			]
 		}
 	},

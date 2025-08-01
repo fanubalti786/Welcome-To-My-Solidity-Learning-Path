@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "len",
+						"type": "uint256"
+					}
+				],
+				"name": "arrayTypesExample",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "stateArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/multiple-array-declaration.sol": "arrayDeclaration"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/multiple-array-declaration.sol": {
+			"keccak256": "0x4cf246804aee6f9456c79d40983c9cc01c26447e44a876b20b1beafa7e194f22",
+			"urls": [
+				"bzz-raw://387437492ff5ee674e97413de736846bb0ac6f4b682315e364239c28adac5527",
+				"dweb:/ipfs/QmXaQvXA46ckEbAeo481aoyriW16rNNmZbk2FjdixtdyT8"
+			]
+		}
+	},
+	"version": 1
+}
