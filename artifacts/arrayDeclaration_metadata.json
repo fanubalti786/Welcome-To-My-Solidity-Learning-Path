@@ -13,6 +13,19 @@
 						"type": "uint256"
 					}
 				],
+				"name": "arrayDeclarationInFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "len",
+						"type": "uint256"
+					}
+				],
 				"name": "arrayTypesExample",
 				"outputs": [],
 				"stateMutability": "view",
@@ -26,7 +39,83 @@
 						"type": "uint256"
 					}
 				],
-				"name": "stateArray",
+				"name": "dynamicArray1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dynamicArray2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fixedArray1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fixedArray2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fixedArray3",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -66,10 +155,10 @@
 	},
 	"sources": {
 		"contracts/multiple-array-declaration.sol": {
-			"keccak256": "0x4cf246804aee6f9456c79d40983c9cc01c26447e44a876b20b1beafa7e194f22",
+			"keccak256": "0x6b4ec79fa6c208c365fc213579aa23ae1b0167e95e56e9a9e70e2425d27d6264",
 			"urls": [
-				"bzz-raw://387437492ff5ee674e97413de736846bb0ac6f4b682315e364239c28adac5527",
-				"dweb:/ipfs/QmXaQvXA46ckEbAeo481aoyriW16rNNmZbk2FjdixtdyT8"
+				"bzz-raw://6067ef22af2f538e9ae2f1a04da388fe6ac9be7e8a1a8e729920cba48a4b0b6a",
+				"dweb:/ipfs/Qmf2su17LXTSU8mYQaHh9U6cnn9oGWTC4KzpQ9mLKRQzvJ"
 			]
 		}
 	},
