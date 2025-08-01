@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14-ifElse.sol": "ifElse"
+			"contracts/15-use-of-ternory-operator.sol": "ifElse"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,11 +52,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/14-ifElse.sol": {
-			"keccak256": "0x9971f951bc7ff1448f1ece2f22262bc2221a05a807ebaed08a07ad19aabcc8f3",
+		"contracts/15-use-of-ternory-operator.sol": {
+			"keccak256": "0xf9728c76979a286e9705967f16bd7aa4b372f9cb42c188ed1e3c2afd405937d9",
 			"urls": [
-				"bzz-raw://eb8d27362f89adb61590065394a99f0ab554ca9a6daa358e0abe6a6103bd9639",
-				"dweb:/ipfs/QmYhD8x8tybDqzrFNzp57iTn7uK4mtDNJn6w1mBrNHQk7D"
+				"bzz-raw://9c5474464aceb8696b8bee587a36b7a2a766506c903ff8cbdaafed5939a24d57",
+				"dweb:/ipfs/QmQqEHiAFGz3pTXXsoDDVFYcX4UDbNZovRbVx4NEa8zmsd"
 			]
 		}
 	},
