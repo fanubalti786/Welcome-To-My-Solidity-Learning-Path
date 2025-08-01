@@ -6,19 +6,72 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dowhileLoop",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "ifElseStatement",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dynamicwhile",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "forLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isTrue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/15-use-of-ternory-operator.sol": "ifElse"
+			"contracts/16-loops-in-solidity.sol": "ifElse"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -52,11 +105,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/15-use-of-ternory-operator.sol": {
-			"keccak256": "0xf9728c76979a286e9705967f16bd7aa4b372f9cb42c188ed1e3c2afd405937d9",
+		"contracts/16-loops-in-solidity.sol": {
+			"keccak256": "0x32b8ae6ed479f1cbda79fec28c56596dc444af2438152263ee598eabcceafc53",
 			"urls": [
-				"bzz-raw://9c5474464aceb8696b8bee587a36b7a2a766506c903ff8cbdaafed5939a24d57",
-				"dweb:/ipfs/QmQqEHiAFGz3pTXXsoDDVFYcX4UDbNZovRbVx4NEa8zmsd"
+				"bzz-raw://312a0e4920d64b156f3b7b9dad64b3c276d5098d42716ef3bacee64a79f88559",
+				"dweb:/ipfs/QmR9KP6wx9hwSdhBgCyrkLvkAGYo6BZtHNxGtRMhAiLYJs"
 			]
 		}
 	},
