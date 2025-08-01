@@ -13,4 +13,14 @@ contract GlobalVars {
     function getBlockNumber() public view returns (uint) {
         return block.number;
     }
+
+    function getBlockDifficulty() public view returns (uint) {
+        return block.prevrandao;
+    }
+
+
+    function getTxGasPrice() public view returns (uint) {
+        return tx.gasprice;
+    }
+
 }
