@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/6-variable-scope.sol": "VariableScope"
+			"contracts/06-variable-scope.sol": "VariableScope"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/6-variable-scope.sol": {
+		"contracts/06-variable-scope.sol": {
 			"keccak256": "0xfaba2f2c874bbfc30bb128d1716a9c405fa228cb91a17daa3ab84ed2fda5e827",
 			"license": "MIT",
 			"urls": [

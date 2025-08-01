@@ -123,7 +123,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/3-basic-data-types.sol": "BasicTypes"
+			"contracts/03-basic-data-types.sol": "BasicTypes"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -137,7 +137,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/3-basic-data-types.sol": {
+		"contracts/03-basic-data-types.sol": {
 			"keccak256": "0x50628ccfde39f39d0f72e0517d3123f9491d36437d3fb2a1b7aa859fc6d572de",
 			"license": "GPL-3.0",
 			"urls": [

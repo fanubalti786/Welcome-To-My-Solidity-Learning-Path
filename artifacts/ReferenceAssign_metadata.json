@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/8-assigning-reference-variable-in-funciton.sol": "ReferenceAssign"
+			"contracts/08-assigning-reference-variable-in-funciton.sol": "ReferenceAssign"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/8-assigning-reference-variable-in-funciton.sol": {
+		"contracts/08-assigning-reference-variable-in-funciton.sol": {
 			"keccak256": "0x6a354cf63903e7484493baa19c62f936b83191ec23d3cb2e00f9093bee3b8b00",
 			"license": "MIT",
 			"urls": [

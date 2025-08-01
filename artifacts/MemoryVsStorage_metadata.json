@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/5-memory-vs-storage-in-funciton.sol": "MemoryVsStorage"
+			"contracts/05-memory-vs-storage-in-funciton.sol": "MemoryVsStorage"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -90,7 +90,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/5-memory-vs-storage-in-funciton.sol": {
+		"contracts/05-memory-vs-storage-in-funciton.sol": {
 			"keccak256": "0xa5af83075e5af0254a82039eba66638fa4f65f986315cdb2fd171392058ec8ee",
 			"license": "MIT",
 			"urls": [

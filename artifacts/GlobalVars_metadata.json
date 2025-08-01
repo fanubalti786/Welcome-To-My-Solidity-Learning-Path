@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getBlockDifficulty",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getBlockNumber",
 				"outputs": [
 					{
@@ -43,6 +56,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTxGasPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -58,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/7-Global-variables.sol": "GlobalVars"
+			"contracts/07-Global-variables.sol": "GlobalVars"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -72,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/7-Global-variables.sol": {
-			"keccak256": "0x975f35bb01990ef5971bfbfb19776265d40cfe155c0cf039ada5a8e248ae8b76",
+		"contracts/07-Global-variables.sol": {
+			"keccak256": "0x43c83f776b5660ef68c687e5a4025c56eefc74dcc9c4ca888ee7b4a7b8d8adfd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cd8360eed06a21726450b6c8d3e32535e9ba92e29f0dd0503f83f5348bcb0e73",
-				"dweb:/ipfs/QmXJsu9BqFEUnKVFi9R3CaCSFjErGvBUh5WRDnKLpgUzZf"
+				"bzz-raw://450d750bc89184ee89ea61ff6376e329f62034e322bd4897263ca47c2cd79a73",
+				"dweb:/ipfs/QmemgA9ah3sNkH8xPMHpjrz1k44o1L2NY8h2i47CufjRHG"
 			]
 		}
 	},

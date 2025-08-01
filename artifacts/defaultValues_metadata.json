@@ -7,12 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getAge",
+				"name": "age",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,14 +33,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "setAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "setName",
+				"name": "isture",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -57,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/01-firstEx.sol": "Identity"
+			"contracts/10-default-values.sol": "defaultValues"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -71,12 +98,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/01-firstEx.sol": {
-			"keccak256": "0xf94b1e389fbd43147e114433c2faeb39fc0d834a60360c5132ed4454f9bbeb18",
-			"license": "GPL-3.0",
+		"contracts/10-default-values.sol": {
+			"keccak256": "0x24b10c1ff5f027a47aa227bcf70d99d8abe0a325f32fd24ea9b37263794bc3cb",
 			"urls": [
-				"bzz-raw://c035c1757669465c235143f1980fccce03731373e0d7097958a814f38f068383",
-				"dweb:/ipfs/Qmf8KZDvree7T8HZhA7sPf2FS217nciTndnTcSWfPqEfSW"
+				"bzz-raw://c1a622052b2caa9a90895c4a4bc42784485c677797962e8ff1e180586000148b",
+				"dweb:/ipfs/QmdbzdraySre9PPk9AasWHhS3BwvMeuRHS2m1tHvmhd9Zw"
 			]
 		}
 	},
