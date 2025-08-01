@@ -4,6 +4,7 @@ pragma solidity ^0.8.0;
 
 contract arrayDeclaration {
     // fixed arrays
+    uint256[] public fixedArray14 = [1, 2, 3];
     uint256[3] public fixedArray1 = [1, 2, 3];
     uint256[5] public fixedArray2;
     uint256[] public fixedArray3 = new uint256[](3);
