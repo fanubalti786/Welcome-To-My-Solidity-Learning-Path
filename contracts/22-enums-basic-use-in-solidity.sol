@@ -14,7 +14,7 @@ contract Enums
         Cancel
     }
 
-    Status public status;
+    Status public status = Status.Pending;
 
     function getStatus() public view returns(Status)
     {
