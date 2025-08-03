@@ -32,6 +32,7 @@ contract C is B {
     }
 
     function fullCheck() public view returns (uint, uint, string memory, string memory) {
+        // we can access globally state variables in different contracts but take max gas
         uint xFromA = A.x(); // ❌ Not allowed directly like a class, can't call like that
         uint xFromThis = this.x(); // ✅ Returns B.x, which hides A.x
         uint xDirect = x; // ✅ Refers to B.x
