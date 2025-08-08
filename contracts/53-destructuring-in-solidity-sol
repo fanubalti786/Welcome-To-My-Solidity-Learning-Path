@@ -1,0 +1,88 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+/**
+ * 53-destructuring-in-solidity.sol
+ * Examples and short notes showing how destructuring / tuple-assignment works in Solidity.
+ *
+ * Key points:
+ * - Solidity supports tuple assignment (multiple-return-value assignment).
+ * - You can skip values with commas: (a, , c) = f();
+ * - Works with function return values, arrays (as tuples), and multiple local variables.
+ * - Be careful with storage vs memory when assigning complex types.
+ */
+
+contract DestructuringExamples {
+    // ---- Example 1: Multiple return values and destructuring ----
+    function getUser() public pure returns (uint256 id, address userAddr, bool active) {
+        return (42, address(0x123), true);
+    }
+
+    function exampleDestructure() public pure returns (uint256, address) {
+        // Destructure the returned tuple into local variables
+        (uint256 userId, address addr, bool isActive) = getUser();
+        // You can now use userId, addr, isActive separately
+        return (userId, addr);
+    }
+
+    // ---- Example 2: Skip values using commas ----
+    function exampleSkip() public pure returns (uint256) {
+        // Suppose we only care about the id
+        (uint256 userId, , ) = getUser();
+        return userId; // 42
+    }
+
+    // ---- Example 3: Re-assigning / swapping values ----
+    function swapDemo(uint256 a, uint256 b) public pure returns (uint256, uint256) {
+        // Swap without a temporary variable using tuple assignment
+        (a, b) = (b, a);
+        return (a, b);
+    }
+
+    // ---- Example 4: Destructuring from internal function returning multiple values ----
+    function _calc(uint256 x) internal pure returns (uint256 doubleX, uint256 tripleX) {
+        return (x * 2, x * 3);
+    }
+
+    function useCalc(uint256 v) public pure returns (uint256 sum) {
+        (uint256 d, uint256 t) = _calc(v);
+        sum = d + t; // d + t = 5 * v
+    }
+
+    // ---- Example 5: Destructuring arrays (as tuples) ----
+    function arrayAsTuple() public pure returns (uint256, uint256) {
+        uint256[2] memory arr = [uint256(7), uint256(9)];
+        // You can destructure fixed-size memory arrays by treating them as a tuple
+        (uint256 x, uint256 y) = (arr[0], arr[1]);
+        return (x, y);
+    }
+
+    // ---- Example 6: Destructuring and storage warnings ----
+    struct Data { uint256 a; uint256 b; }
+    Data public data;
+
+    function setData(uint256 a_, uint256 b_) public {
+        data = Data(a_, b_);
+    }
+
+    function destructureStorage() public view returns (uint256, uint256) {
+        // You cannot directly destructure storage struct into storage refs in one tuple expression.
+        // But you can read fields into locals like this:
+        (uint256 aLocal, uint256 bLocal) = (data.a, data.b);
+        return (aLocal, bLocal);
+    }
+
+    // ---- Example 7: Assigning returned tuple to existing variables ----
+    function assignExisting() public pure returns (uint256, uint256) {
+        uint256 p = 1;
+        uint256 q = 2;
+        // Assign new values to existing vars
+        (p, q) = (10, 20);
+        return (p, q);
+    }
+
+    // ---- Notes ----
+    // - Destructuring is a syntactic convenience for working with tuples.
+    // - When dealing with dynamic arrays, mappings, and storage pointers be mindful of gas and reference vs value semantics.
+    // - Use explicit variable names for clarity; underscore-prefixed names (e.g. _var) are common for function parameters.
+}
