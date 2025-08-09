@@ -23,6 +23,28 @@ contract Callee {
 }
 
 contract Caller {
+    // State variable: yahan naya contract deploy kar ke address save kar sakte hain
+    Callee public deployedCallee;
+
+    // 1️⃣ Deploy kar ke state variable me save karna (persistent storage me save)
+    function deployAndStoreCallee() public {
+        deployedCallee = new Callee();
+    }
+
+    // 2️⃣ Deploy karna lekin sirf local variable me (ye temporary hai, function ke baad lost ho jayega)
+    function deployTemporaryCallee() public {
+        Callee tempCallee = new Callee();
+        // tempCallee ke sath yahan kaam kar sakte hain,
+        // lekin ye address function ke bahar accessible nahi hoga
+    }
+
+    // Deploy kar ke stored instance pe function call karna
+    function setXOnDeployed(uint256 _x) public {
+        require(address(deployedCallee) != address(0), "Deploy first");
+        deployedCallee.setX(_x);
+    }
+
+    // Existing address ke sath call karne wale functions
     function setX(Callee _callee, uint256 _x) public {
         uint256 x = _callee.setX(_x);
     }
