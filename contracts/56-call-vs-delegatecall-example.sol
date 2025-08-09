@@ -16,6 +16,8 @@ contract Logic {
 }
 
 contract Caller {
+    uint public x; // Delegatecall ke liye yeh storage variable hona chahiye
+
     // 1️⃣ Payable function call using `.call` with gas limit and Ether forwarding
     function callSetXPayable(address logicAddr, uint _x) public payable {
         (bool success, ) = logicAddr.call{gas: 50000, value: msg.value}(
@@ -32,3 +34,4 @@ contract Caller {
         require(success, "Delegatecall failed");
     }
 }
+
