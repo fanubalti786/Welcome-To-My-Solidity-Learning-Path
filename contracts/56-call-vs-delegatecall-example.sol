@@ -1,24 +1,33 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.26;
+
 contract Logic {
     uint public x;
 
-    function setX(uint _x) public {
+    // Payable function
+    function setX(uint _x) public payable {
+        x = _x;
+    }
+
+    // Non-payable function
+    function setXSimple(uint _x) public {
         x = _x;
     }
 }
 
 contract Caller {
-    uint public x;
-
-    function callSetX(address logicAddr, uint _x) public {
-        (bool success, ) = logicAddr.call(
+    // 1️⃣ Payable function call using `.call` with gas limit and Ether forwarding
+    function callSetXPayable(address logicAddr, uint _x) public payable {
+        (bool success, ) = logicAddr.call{gas: 50000, value: msg.value}(
             abi.encodeWithSignature("setX(uint256)", _x)
         );
         require(success, "Call failed");
     }
 
-    function delegatecallSetX(address logicAddr, uint _x) public {
-        (bool success, ) = logicAddr.delegatecall(
-            abi.encodeWithSignature("setX(uint256)", _x)
+    // 2️⃣ Non-payable function call using `.delegatecall` with gas limit
+    function delegatecallSetXSimple(address logicAddr, uint _x) public {
+        (bool success, ) = logicAddr.delegatecall{gas: 50000}(
+            abi.encodeWithSignature("setXSimple(uint256)", _x)
         );
         require(success, "Delegatecall failed");
     }
