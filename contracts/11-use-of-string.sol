@@ -23,3 +23,14 @@ contract _string
     }
      
 }
+
+
+_stateVar (str) → storage
+_name → memory
+
+Memory → Memory        ✅ allowed
+Memory → Storage       ✅ allowed
+Storage → Memory       ✅ allowed
+Storage → Storage*     ❌ for string
+Storage → Storage*     ✅ for array/struct
+
