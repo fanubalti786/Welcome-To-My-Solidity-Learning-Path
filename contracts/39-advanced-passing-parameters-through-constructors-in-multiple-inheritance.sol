@@ -51,3 +51,14 @@ contract D is B, C {
 }
 
 
+// Solution 
+contract D is B, C {
+    // 👇 SIRF EK BAR A CONSTRUCTOR CALL KARO!
+    constructor()
+        A("Irfan", 22)           // ✅ Sirf ek baar A initialize karo
+        B("Irfan", 22, "Karachi", 40000)
+        C("Irfan", 22, "Lahore", 50000)
+    {}
+}
+
+
